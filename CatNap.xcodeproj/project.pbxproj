@@ -20,6 +20,7 @@
 		D5880A6E1EBBFC91000E836B /* mrreow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5880A691EBBFC91000E836B /* mrreow.mp3 */; };
 		D5880A6F1EBBFC91000E836B /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5880A6A1EBBFC91000E836B /* pop.mp3 */; };
 		D5880A701EBBFC91000E836B /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5880A6B1EBBFC91000E836B /* win.mp3 */; };
+		D5880A741EBC003F000E836B /* Cat.sks in Resources */ = {isa = PBXBuildFile; fileRef = D5880A731EBC003F000E836B /* Cat.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		D5880A691EBBFC91000E836B /* mrreow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mrreow.mp3; sourceTree = "<group>"; };
 		D5880A6A1EBBFC91000E836B /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
 		D5880A6B1EBBFC91000E836B /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		D5880A731EBC003F000E836B /* Cat.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Cat.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +73,10 @@
 		D5880A4E1EBBFAD5000E836B /* CatNap */ = {
 			isa = PBXGroup;
 			children = (
+				D5880A721EBBFFF3000E836B /* Scenes */,
 				D5880A4F1EBBFAD5000E836B /* AppDelegate.swift */,
-				D5880A511EBBFAD5000E836B /* GameScene.sks */,
-				D5880A531EBBFAD5000E836B /* Actions.sks */,
 				D5880A551EBBFAD5000E836B /* GameScene.swift */,
+				D5880A531EBBFAD5000E836B /* Actions.sks */,
 				D5880A571EBBFAD5000E836B /* GameViewController.swift */,
 				D5880A591EBBFAD5000E836B /* Main.storyboard */,
 				D5880A5C1EBBFAD5000E836B /* Assets.xcassets */,
@@ -94,6 +96,15 @@
 				D5880A6B1EBBFC91000E836B /* win.mp3 */,
 			);
 			name = sounds;
+			sourceTree = "<group>";
+		};
+		D5880A721EBBFFF3000E836B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D5880A511EBBFAD5000E836B /* GameScene.sks */,
+				D5880A731EBC003F000E836B /* Cat.sks */,
+			);
+			name = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +177,7 @@
 				D5880A6D1EBBFC91000E836B /* lose.mp3 in Resources */,
 				D5880A601EBBFAD5000E836B /* LaunchScreen.storyboard in Resources */,
 				D5880A541EBBFAD5000E836B /* Actions.sks in Resources */,
+				D5880A741EBC003F000E836B /* Cat.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
