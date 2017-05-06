@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D55E76E71EBE490A00085892 /* CatCurl.sks in Resources */ = {isa = PBXBuildFile; fileRef = D55E76E61EBE490A00085892 /* CatCurl.sks */; };
+		D55E76E91EBE49AF00085892 /* CatWakeUp.sks in Resources */ = {isa = PBXBuildFile; fileRef = D55E76E81EBE49AF00085892 /* CatWakeUp.sks */; };
 		D5880A501EBBFAD5000E836B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5880A4F1EBBFAD5000E836B /* AppDelegate.swift */; };
 		D5880A521EBBFAD5000E836B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D5880A511EBBFAD5000E836B /* GameScene.sks */; };
 		D5880A541EBBFAD5000E836B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D5880A531EBBFAD5000E836B /* Actions.sks */; };
@@ -21,9 +23,12 @@
 		D5880A6F1EBBFC91000E836B /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5880A6A1EBBFC91000E836B /* pop.mp3 */; };
 		D5880A701EBBFC91000E836B /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5880A6B1EBBFC91000E836B /* win.mp3 */; };
 		D5880A741EBC003F000E836B /* Cat.sks in Resources */ = {isa = PBXBuildFile; fileRef = D5880A731EBC003F000E836B /* Cat.sks */; };
+		D5880A7C1EBC0544000E836B /* SpriteTest.sks in Resources */ = {isa = PBXBuildFile; fileRef = D5880A7B1EBC0544000E836B /* SpriteTest.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D55E76E61EBE490A00085892 /* CatCurl.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CatCurl.sks; sourceTree = "<group>"; };
+		D55E76E81EBE49AF00085892 /* CatWakeUp.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CatWakeUp.sks; sourceTree = "<group>"; };
 		D5880A4C1EBBFAD5000E836B /* CatNap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatNap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5880A4F1EBBFAD5000E836B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5880A511EBBFAD5000E836B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -40,6 +45,7 @@
 		D5880A6A1EBBFC91000E836B /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
 		D5880A6B1EBBFC91000E836B /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 		D5880A731EBC003F000E836B /* Cat.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Cat.sks; sourceTree = "<group>"; };
+		D5880A7B1EBC0544000E836B /* SpriteTest.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpriteTest.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 			children = (
 				D5880A511EBBFAD5000E836B /* GameScene.sks */,
 				D5880A731EBC003F000E836B /* Cat.sks */,
+				D5880A7B1EBC0544000E836B /* SpriteTest.sks */,
+				D55E76E61EBE490A00085892 /* CatCurl.sks */,
+				D55E76E81EBE49AF00085892 /* CatWakeUp.sks */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -173,11 +182,14 @@
 				D5880A6F1EBBFC91000E836B /* pop.mp3 in Resources */,
 				D5880A5D1EBBFAD5000E836B /* Assets.xcassets in Resources */,
 				D5880A701EBBFC91000E836B /* win.mp3 in Resources */,
+				D5880A7C1EBC0544000E836B /* SpriteTest.sks in Resources */,
 				D5880A6E1EBBFC91000E836B /* mrreow.mp3 in Resources */,
 				D5880A6D1EBBFC91000E836B /* lose.mp3 in Resources */,
 				D5880A601EBBFAD5000E836B /* LaunchScreen.storyboard in Resources */,
 				D5880A541EBBFAD5000E836B /* Actions.sks in Resources */,
 				D5880A741EBC003F000E836B /* Cat.sks in Resources */,
+				D55E76E71EBE490A00085892 /* CatCurl.sks in Resources */,
+				D55E76E91EBE49AF00085892 /* CatWakeUp.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +368,7 @@
 				D5880A661EBBFAD5000E836B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
